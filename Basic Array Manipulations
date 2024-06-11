@@ -1,0 +1,20 @@
+
+//create an array to store companies => "Bloomberg","Microsoft","Uber","Google","IBM","Netflix"
+
+// a) Remove the first company from the array
+
+ let companies=["Bloomberg","Microsoft","Uber","Google","IBM","Netflix"];
+ companies.splice(0,1);
+ console.log(companies);
+ 
+
+// b) Remove the uber & add ola in its place
+ let companies=["Bloomberg","Microsoft","Uber","Google","IBM","Netflix"];
+ companies.splice(2,2,"Ola");
+ console.log(companies);
+
+
+// c) Add amazon at end
+let companies=["Bloomberg","Microsoft","Uber","Google","IBM","Netflix"];
+companies.push("Amazon");
+console.log(companies);
